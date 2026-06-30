@@ -1,4 +1,4 @@
-NAME = array
+NAME = ex02
 
 # Archivos fuente y objetos
 SRC = main.cpp

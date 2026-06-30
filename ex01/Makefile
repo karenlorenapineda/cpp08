@@ -1,4 +1,4 @@
-NAME = iter
+NAME = ex01
 
 # Archivos fuente y objetos
 SRC = main.cpp
