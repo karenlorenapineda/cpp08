@@ -6,14 +6,14 @@
 #    By: kpineda- <kpineda-@student.42madrid.com    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/06/30 10:49:38 by kpineda-          #+#    #+#              #
-#    Updated: 2026/06/30 10:54:08 by kpineda-         ###   ########.fr        #
+#    Updated: 2026/06/30 11:51:27 by kpineda-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = ex01
 
 # Source files and objects
-SRC = main.cpp
+SRC = main.cpp Span.cpp
 OBJ_DIR = obj
 OBJ = $(SRC:.cpp=.o)
 OBJ := $(addprefix $(OBJ_DIR)/, $(OBJ))
